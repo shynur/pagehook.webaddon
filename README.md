@@ -1,1 +1,0 @@
-# pagehook.webaddon

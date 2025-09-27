@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "page-hook",
+  "version": "0.1",
+  "description": "将用户编写的 JavaScript 与 origin 关联, 页面每次加载完成时自动执行",
+  "permissions": ["storage", "tabs"],
+  "host_permissions": ["<all_urls>"],
+  "action": {"default_popup": "popup.html"},
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content_script.mjs"],
+      "run_at": "document_idle"
+    }
+  ]
+}
