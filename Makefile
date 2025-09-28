@@ -1,7 +1,8 @@
 SHELL = /bin/bash -O globstar
 
 .PHONY: all
-all:
+all: FORCE | dist/
+	tsc
 
 .PHONY: clean
 clean:
@@ -9,6 +10,7 @@ clean:
 	rm -f  ./**/.?*~
 	rm -f   ./**/\#?*\#
 	rm -f  ./**/.\#?*
+	rm -rf dist
 
 %/:
 	mkdir -p $@
