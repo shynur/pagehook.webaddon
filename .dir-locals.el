@@ -30,5 +30,7 @@
  (js-json-mode . ((indent-tabs-mode . t)))
  (js-mode . ((indent-tabs-mode . nil)
 	     (tab-width . 4)))
+ ("node_modules" . ((nil . ((eval . (when buffer-file-name
+                              (setq-local buffer-read-only t)))))))
  (yaml-mode . ((indent-tabs-mode . nil)
                (tab-width . 2))))
