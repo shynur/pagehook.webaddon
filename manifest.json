@@ -1,10 +1,10 @@
 {
 	"manifest_version": 3,
 	"author": "谢骐",
-	"homepage_url": "https://github.com/shynur",
+	"homepage_url": "https://github.com/shynur/pagehook.webaddon",
 	"developer": {
 		"name": "谢骐",
-		"url": "https://github.com/shynur"
+		"url": "https://github.com/shynur/pagehook.webaddon"
 	},
 	"name": "Page Hook",
 	"version": "0.1.2",
