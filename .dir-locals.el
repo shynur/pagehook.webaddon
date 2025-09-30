@@ -29,7 +29,9 @@
                    (mode . whitespace)))
  (js-json-mode . ((indent-tabs-mode . t)))
  (js-mode . ((indent-tabs-mode . nil)
-	     (tab-width . 4)))
+	         (tab-width . 4)))
+ (html-mode . ((indent-tabs-mode . t)
+	           (tab-width . 2)))
  ("node_modules" . ((nil . ((eval . (when buffer-file-name
                               (setq-local buffer-read-only t)))))))
  (yaml-mode . ((indent-tabs-mode . nil)
