@@ -2,10 +2,10 @@
 	"manifest_version": 3,
 	"author": "谢骐",
 	"homepage_url": "https://github.com/shynur/pagehook.webaddon",
-	"developer": {
-		"name": "谢骐",
-		"url": "https://github.com/shynur/pagehook.webaddon"
-	},
+	//"developer": {
+	//	"name": "谢骐",
+	//	"url": "https://github.com/shynur/pagehook.webaddon"
+	//},
 	"name": "Page Hook",
 	"version": "1",
 	"description": "将用户编写的 JavaScript 与 origin 关联, 页面每次加载完成时自动执行",
