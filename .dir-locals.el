@@ -2,6 +2,8 @@
                      ("/.git/COMMIT_EDITMSG\\'" . diff-mode)
                      ("\\.ya?ml\\'" . yaml-ts-mode)
                      ("\\.json\\'" . js-json-mode)
+		     ("\\.m?js\\.map\\'" . js-json-mode)
+		     ("\\.m?ts\\'" . typescript-ts-mode)
                      ("\\.mjs\\'" . javascript-mode)))
  (nil . ((delete-trailing-whitespace . t)
          (eval . (when (derived-mode-p 'text-mode 'prog-mode 'conf-mode)
