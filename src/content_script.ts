@@ -1,3 +1,5 @@
+'use strict'
+
 if (document.readyState === 'complete')
     my_hook()
 else
